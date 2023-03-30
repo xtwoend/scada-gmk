@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
+        <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
+        <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://192.168.170.87:9501/table/1/data"
+                    export="http://192.168.170.87:9501/table/1/export"
+                    title="LME 2 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'CUM_ST_FeedScrSpeed', text: 'CUM Feed Scr Speed'},
+                        {value: 'CUM_ST_MillCurrent', text: 'CUM Mill Current'},
+                        {value: 'CUM_ST_MillSpeed', text: 'CUM Mill Speed'},
+                        {value: 'LME_ST_FeedPSpeed', text: 'LME Feed Speed'},
+                        {value: 'LME_ST_InProdPres', text: 'LME IN Prod Press'},
+                        {value: 'LME_ST_MillCurrent', text: 'LME Mill Current'},
+                        {value: 'LME_ST_OutProdTemp', text: 'LME Out Prod Temperature'},
+                        {value: 'STK_ST_DiscScrSpeed', text: 'STK Disc Scr Speed'},
+                        {value: 'STK_ST_SugTkWeig', text: 'STK Sug Weight'},
+                        {value: 'TK_ST_CoolTkTemp', text: 'TK Cool Temperature'},
+                        {value: 'TK_ST_CoolTkWeig', text: 'TK Cool Weight'},
+                        {value: 'TK_ST_HoldTkTemp', text: 'TK Hold Temperature'},
+                        {value: 'TK_ST_HoldTkWeig', text: 'TK Hold Weight'},
+                        {value: 'TK_ST_LecDosPSpeed', text: 'TK Lec Dos Speed'},
+                        {value: 'TK_ST_LecTkLevel', text: 'TK Lec Level'},
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>

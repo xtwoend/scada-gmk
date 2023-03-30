@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="module" cross origin src="/assets/vendor.8c2e5e27.js"></script>
+    <script type="module" cross origin src="/assets/app.fbc79216.js"></script>
+    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="LME 1 - Trend View Live"
+            url="http://192.168.170.87:9501/mqtt/2/log"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                 topic: 'data/gmk/k/lme1'
+            }"
+            :default-data="[{data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'}]"
+            :columns="[
+                {data: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
+                {data: 'HMI_TK_ST_CoolTkTemp', text: 'Product CT Temperatur(°C)'},
+                {data: 'HMI_TK_ST_HoldTkTemp', text: 'Product HTTemperatur(°C)'},
+                {data: 'HMI_LME_ST_FeedPSpeed', text: 'LME500 FeedPump Speed (rpm)'},
+                {data: 'HMI_CUM_ST_MillSpeed', text: 'Mill CUM450 Motor Speed (rpm)'},
+                {data: 'HMI_LME_ST_MillCurrent', text: 'Mill LME500 Current (A) '},
+                {data: 'HMI_LME_ST_InProdPres', text: 'LME Product Pressure (bar)'},
+                {data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'},
+                {data: 'LME_ST_MillMotor_Status', text: 'Mill Motor Status'},
+                {data: 'TK_ST_TksTransfPump_Status', text: 'Transfer Pump Status'},
+                {data: 'LME_ST_FeedingPump_Status', text: 'Feed Pump Status'}
+            ]"></trend-live>
+
+        <trend-view 
+            v-if="active == 'history'"
+            title="LME 1 - Trend View Historical"
+            url="http://192.168.170.87:9501/trend/2/data"
+            :default-data="[{data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'}]"
+            :columns="[
+                 {data: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
+                {data: 'HMI_TK_ST_CoolTkTemp', text: 'Product CT Temperatur(°C)'},
+                {data: 'HMI_TK_ST_HoldTkTemp', text: 'Product HTTemperatur(°C)'},
+                {data: 'HMI_LME_ST_FeedPSpeed', text: 'LME500 FeedPump Speed (rpm)'},
+                {data: 'HMI_CUM_ST_MillSpeed', text: 'Mill CUM450 Motor Speed (rpm)'},
+                {data: 'HMI_LME_ST_MillCurrent', text: 'Mill LME500 Current (A) '},
+                {data: 'HMI_LME_ST_InProdPres', text: 'LME Product Pressure (bar)'},
+                {data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'},
+                {data: 'LME_ST_MillMotor_Status', text: 'Mill Motor Status'},
+                {data: 'TK_ST_TksTransfPump_Status', text: 'Transfer Pump Status'},
+                {data: 'LME_ST_FeedingPump_Status', text: 'Feed Pump Status'}
+            ]"></trend-view>
+
+    </div>
+    
+</body>
+</html>

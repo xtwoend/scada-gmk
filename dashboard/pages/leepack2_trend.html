@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="module" crossorigin src="/assets/vendor.8c2e5e27.js"></script>
+    <script type="module" crossorigin src="/assets/app.fbc79216.js"></script>
+    <link rel="stylesheet" href="/assets/app.b3d103bb.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="LEEPACK 2 - Trend View Live"
+            url="http://192.168.170.87:9501/mqtt/2/log"
+            :mqtt="{
+                url: 'ws://192.168.170.87:9001',
+                username: 'admin-autocot',
+                password: 'Bumitama123!',
+                topic: 'data/gmk/k/leepack2'
+            }"
+            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+            :columns="[
+                {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
+                {data: 'filling_speed', text: 'Filling Speed'},
+                {data: 'sv_speed_bpm', text: 'SV Speed BPM'},
+                {data: 'pv_speed_bpm', text: 'PV Speed BPM'},
+                {data: 'sv_bag', text: 'SV Bag'},
+                {data: 'pv_bag', text: 'PV Bag'},
+                {data: 'sv_filling_speed_rpm', text: 'SV Filling Speed'},
+                {data: 'pv_filling_speed_rpm', text: 'PV Filling Speed'}
+            ]"></trend-live>
+
+        <trend-view 
+            v-if="active == 'history'"
+            title="LEEPACK 2 - Trend View Historical"
+            url="http://192.168.170.87:9501/trend/2/data"
+            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+            :columns="[
+                {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
+                {data: 'filling_speed', text: 'Filling Speed'},
+                {data: 'sv_speed_bpm', text: 'SV Speed BPM'},
+                {data: 'pv_speed_bpm', text: 'PV Speed BPM'},
+                {data: 'sv_bag', text: 'SV Bag'},
+                {data: 'pv_bag', text: 'PV Bag'},
+                {data: 'sv_filling_speed_rpm', text: 'SV Filling Speed'},
+                {data: 'pv_filling_speed_rpm', text: 'PV Filling Speed'}
+            ]"></trend-view>
+
+    </div>
+    
+</body>
+</html>

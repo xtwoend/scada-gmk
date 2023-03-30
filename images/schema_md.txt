@@ -1,0 +1,39 @@
+-- Operator
+    id
+    rfid (id biomatric)
+    name
+
+-- Product
+    id
+    name
+    description
+    pack
+
+-- Production
+    id
+    date
+    product_id
+    device_id
+    no_por
+    batch_number
+    operator_id
+
+-- Production Record
+    id
+    production_id
+    date
+    other_on_sensor
+
+-- Production Test
+    id
+    product_id
+    date
+    <sensor metal detector>
+    verify_by
+    status
+
+-- Devices
+    id
+    name
+    mechine_code
+

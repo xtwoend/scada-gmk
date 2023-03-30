@@ -1,0 +1,19 @@
+notulensi meeting realtime monitoring PT. GMK (03 maret 2023)
+
+1. bagaimana proses identifikasi data finger print? (kirim via email)
+2. apa jenis scan QR-code (por)? (kirim via email)
+3. penjelasan detail server (spesfikasi) (kirim via email)
+4. pembuatan support mini PC (stailess)
+5. kabel power minggu depan dari GMK. menunggu info dari pak rudy (trial dilakukan minggun depan)
+6. kabel etherenet to server (ditest 3 panel terlebih dahulu)
+7. software testing webscada pada remote io menggunakan simulator.
+8. pemasangan hardware metdec harus dilakukan minggu depan (oleh pihak vendor metdek, dan follow up gmk)
+9. trial mini PC ke GMK 2pcs
+10. terminal block menggunakan tb fuse (saran)
+
+
+*bahas shcedule dengan actual yang jelas.
+ mereview hasil pengerjaan.
+ penambahan hasil review pada table schedule
+ display dashboard metdec dibedakan, beda user.
+ untuk OEE tampilannya disamakan dengan existing. reportnya berdeda 
