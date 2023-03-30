@@ -29,7 +29,7 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="PKU Pannel Trend View Live"
-            url="http://10.10.10.111:9501/mqtt/2/log"
+            url="http://10.10.10.111:9501/mqtt/5/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
@@ -48,8 +48,8 @@
 
         <trend-view 
             v-if="active == 'history'"
-            title="LMDM - COT Pump Monitoring"
-            url="http://10.10.10.111:9501/trend/2/data"
+            title="PKU Pannel Trend View History"
+            url="http://10.10.10.111:9501/trend/5/data"
             :default-data="[{data: 'level', text: 'Level (%)'}]"
             :columns="[
                 {data: 'Level', text: 'Sensor 1'},

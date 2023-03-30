@@ -29,7 +29,7 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="LME 1 - Trend View Live"
-            url="http://10.10.10.111:9501/mqtt/2/log"
+            url="http://10.10.10.111:9501/mqtt/7/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
@@ -54,7 +54,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="LME 1 - Trend View Historical"
-            url="http://10.10.10.111:9501/trend/2/data"
+            url="http://10.10.10.111:9501/trend/7/data"
             :default-data="[{data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'}]"
             :columns="[
                  {data: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
