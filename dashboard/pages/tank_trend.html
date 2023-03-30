@@ -29,11 +29,11 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Tank Trend View Live"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            url="http://10.10.10.111:9501/mqtt/2/log"
             :mqtt="{
-                url: 'ws://192.168.170.87:9001',
-                username: 'admin-autocot',
-                password: 'Bumitama123!',
+                url: 'ws://10.10.10.111:9001',
+                username: 'mqtt01',
+                password: 'password123',
                 topic: 'data/gmk/k/pkp1'
             }"
             :default-data="[{data: 'ai_module_1[0]', text: 'Temp Tank 1'}]"
@@ -264,7 +264,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="Tank Trend View Historical"
-            url="http://192.168.170.87:9501/trend/2/data"
+            url="http://10.10.10.111:9501/trend/2/data"
             :default-data="[{data: 'ai_module_1[0]', text: 'Temp Tank 1'}]"
             :columns="[
                 {data: 'ai_module_1[0]', text: 'Temp Tank 1'},

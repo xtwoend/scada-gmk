@@ -14,11 +14,11 @@
     <div id="app">
         <trend-live 
             title="LME 1 OEE"
-            url="http://192.168.170.87:9501/mqtt/2/log"
+            url="http://10.10.10.111:9501/mqtt/2/log"
             :mqtt="{
-                url: 'ws://192.168.170.87:9001',
-                username: 'admin-autocot',
-                password: 'Bumitama123!',
+                url: 'ws://10.10.10.111:9001',
+                username: 'mqtt01',
+                password: 'password123',
                 topic: 'data/bga/cotpump/lmdm'
             }"
             :default-data="[{data: 'score', text: 'Score (%)'}]"
