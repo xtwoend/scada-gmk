@@ -6,7 +6,7 @@
         <title>Auto COT Pump</title>
         
         <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
-        <script type="module" crossorigin src="/assets/app.5877791d.js"></script>
+        <script type="module" crossorigin src="/assets/app.72cbbef7.js"></script>
         <link rel="stylesheet" href="/assets/app.c316c2cb.css">
     </head>
     <body>
@@ -17,10 +17,9 @@
                     export="http://10.10.10.111:9501/table/3/export"
                     title="LEEPACK 3 - Alarm Logger"
                     :headers="[
-                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'started_at', text: 'Timestamp', sortable: true},
                         {value: 'duration', text: 'Duration'},
-                        {value: 'sensor', text: 'Sensor'},
-                        {value: 'code', text: 'Alarm Code'},
+                        {value: 'status', text: 'Status'},
                         {value: 'message', text: 'Message'},
                     ]"
                     ref="vtable"
