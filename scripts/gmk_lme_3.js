@@ -19,7 +19,7 @@ setTag('data8_LME3', data.data8); // Mill Rotation
 setTag('data9_LME3', data.data9); // Product Output Temperature
 //setTag('data10_LME3', data.data10); // Heat Xchanger Temperature
 
-
+setTag('LME3_IHM_ST_Moinho_status', data.IHM_ST_Moinho_status);
 }  
   
 

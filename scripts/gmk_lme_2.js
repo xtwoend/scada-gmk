@@ -20,6 +20,11 @@ setTag('LME2_HMI_LME_ST_MillSpeed', data.HMI_LME_ST_MillSpeed); //LME Mill ST Sp
 setTag('LME2_HMI_LME_ST_FeedingPump_Status', data.HMI_LME_ST_FeedingPump_Status);
 setTag('LME2_HMI_LME_ST_MillMotor_Status', data.HMI_LME_ST_MillMotor_Status);
 setTag('LME2_HMI_TK_ST_TksTransfPump_Status', data.HMI_TK_ST_TksTransfPump_Status);
+
+setTag('LME2_HMI_TK_ST_DispTkAgit_status', data.HMI_TK_ST_DispTkAgit_status);
+
+setTag('LME2_HMI_TK_ST_HoldTkAgit_status', data.HMI_TK_ST_HoldTkAgit_status);
+setTag('LME2_HMI_LME_ST_RecirPump_status', data.HMI_LME_ST_RecirPump_status);
 }  
   
 

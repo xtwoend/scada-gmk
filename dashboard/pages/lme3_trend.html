@@ -39,12 +39,14 @@
             }"
             :default-data="[{data: 'data6', text: 'Feed Pump Speed (RPM)'}]"
             :columns="[
-                {data: 'data1', text: 'Mill Current'},
-                {data: 'data3', text: 'Mill Inlet Pressure'},
-                {data: 'data4', text: 'Mill Outlet Pressure'},
-                {data: 'data6', text: 'Feed Pump Speed'},
-                {data: 'data8', text: 'Mill Rotation Speed'},
-                {data: 'data9', text: 'Product Output Temperature'},
+                {data: 'data1', text: 'Mill Current (a)'},
+                {data: 'data3', text: 'Mill Inlet Pressure (bar)'},
+                {data: 'data4', text: 'Mill Outlet Pressure (bar)'},
+                {data: 'data6', text: 'Feed Pump Speed (rpm)'},
+                {data: 'data8', text: 'Mill Motor Speed (rpm)'},
+                {data: 'data9', text: 'Product Output Temperature (°C)'},
+                
+                {data: 'IHM_ST_Moinho_status', text: 'Mill Motor Status'},
                         ]"></trend-live>
 
         <trend-view 
@@ -53,12 +55,12 @@
             url="http://10.10.10.111:9501/trend/9/data"
             :default-data="[{data: 'data6', text: 'Feed Pump Speed (RPM)'}]"
             :columns="[
-                 {data: 'data1', text: 'Mill Current'},
-                {data: 'data3', text: 'Mill Inlet Pressure'},
-                {data: 'data4', text: 'Mill Outlet Pressure'},
-                {data: 'data6', text: 'Feed Pump Speed'},
-                {data: 'data8', text: 'Mill Rotation Speed'},
-                {data: 'data9', text: 'Product Output Temperature'},
+                 {data: 'data1', text: 'Mill Current (a)'},
+                {data: 'data3', text: 'Mill Inlet Pressure (bar)'},
+                {data: 'data4', text: 'Mill Outlet Pressure (bar)'},
+                {data: 'data6', text: 'Feed Pump Speed (rpm)'},
+                {data: 'data8', text: 'Mill Motor Speed (rpm)'},
+                {data: 'data9', text: 'Product Output Temperature(°C)'},
             ]"></trend-view>
 
     </div>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
+        <script type="module" crossorigin src="/assets/app.31ffec82.js"></script>
+        <link rel="stylesheet" href="/assets/app.c316c2cb.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/3/data"
+                    export="http://10.10.10.111:9501/table/3/export"
+                    title="LEEPACK 3 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
+                        {value: 'filling_speed', text: 'Filling Speed'},
+                        {value: 'sv_speed_bpm', text: 'SV Speed BPM'},
+                        {value: 'pv_speed_bpm', text: 'PV Speed BPM'},
+                        {value: 'sv_bag', text: 'SV Bag'},
+                        {value: 'pv_bag', text: 'PV Bag'},
+                        {value: 'sv_filling_speed_rpm', text: 'SV Filling Speed'},
+                        {value: 'pv_filling_speed_rpm', text: 'PV Filling Speed'}
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
