@@ -7,7 +7,7 @@
     <title>Document</title>
     
     <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
-    <script type="module" crossorigin src="/assets/app.31ffec82.js"></script>
+    <script type="module" crossorigin src="/assets/app.f2e3a03b.js"></script>
     <link rel="stylesheet" href="/assets/app.c316c2cb.css">
 </head>
 <body>
@@ -40,13 +40,11 @@
             :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
-                {data: 'filling_speed', text: 'Filling Speed'},
-                {data: 'sv_speed_bpm', text: 'SV Speed BPM'},
-                {data: 'pv_speed_bpm', text: 'PV Speed BPM'},
                 {data: 'sv_bag', text: 'SV Bag'},
                 {data: 'pv_bag', text: 'PV Bag'},
                 {data: 'sv_filling_speed_rpm', text: 'SV Filling Speed'},
-                {data: 'pv_filling_speed_rpm', text: 'PV Filling Speed'}
+                {data: 'sv_filling_pulse', text: 'SV Filling Pulse'},
+                {data: 'level_hopper', text: 'Level Hopper'},
             ]"></trend-live>
 
         <trend-view 
@@ -56,13 +54,11 @@
             :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
-                {data: 'filling_speed', text: 'Filling Speed'},
-                {data: 'sv_speed_bpm', text: 'SV Speed BPM'},
-                {data: 'pv_speed_bpm', text: 'PV Speed BPM'},
                 {data: 'sv_bag', text: 'SV Bag'},
                 {data: 'pv_bag', text: 'PV Bag'},
                 {data: 'sv_filling_speed_rpm', text: 'SV Filling Speed'},
-                {data: 'pv_filling_speed_rpm', text: 'PV Filling Speed'}
+                {data: 'sv_filling_pulse', text: 'SV Filling Pulse'},
+                {data: 'level_hopper', text: 'Level Hopper'},
             ]"></trend-view>
 
     </div>

@@ -7,7 +7,7 @@
     <title>Document</title>
     
     <script type="module" cross origin src="/assets/vendor.3bd57d60.js"></script>
-    <script type="module" cross origin src="/assets/app.31ffec82.js"></script>
+    <script type="module" cross origin src="/assets/app.f2e3a03b.js"></script>
     <link rel="stylesheet" href="/assets/app.c316c2cb.css">
 </head>
 <body>
@@ -45,9 +45,8 @@
                 {data: 'data6', text: 'Feed Pump Speed (rpm)'},
                 {data: 'data8', text: 'Mill Motor Speed (rpm)'},
                 {data: 'data9', text: 'Product Output Temperature (°C)'},
-                
                 {data: 'IHM_ST_Moinho_status', text: 'Mill Motor Status'},
-                        ]"></trend-live>
+            ]"></trend-live>
 
         <trend-view 
             v-if="active == 'history'"
@@ -55,12 +54,13 @@
             url="http://10.10.10.111:9501/trend/9/data"
             :default-data="[{data: 'data6', text: 'Feed Pump Speed (RPM)'}]"
             :columns="[
-                 {data: 'data1', text: 'Mill Current (a)'},
+                {data: 'data1', text: 'Mill Current (a)'},
                 {data: 'data3', text: 'Mill Inlet Pressure (bar)'},
                 {data: 'data4', text: 'Mill Outlet Pressure (bar)'},
                 {data: 'data6', text: 'Feed Pump Speed (rpm)'},
                 {data: 'data8', text: 'Mill Motor Speed (rpm)'},
-                {data: 'data9', text: 'Product Output Temperature(°C)'},
+                {data: 'data9', text: 'Product Output Temperature (°C)'},
+                {data: 'IHM_ST_Moinho_status', text: 'Mill Motor Status'},
             ]"></trend-view>
 
     </div>

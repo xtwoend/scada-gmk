@@ -7,7 +7,7 @@
     <title>Document</title>
     
     <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
-    <script type="module" crossorigin src="/assets/app.31ffec82.js"></script>
+    <script type="module" crossorigin src="/assets/app.f2e3a03b.js"></script>
     <link rel="stylesheet" href="/assets/app.c316c2cb.css">
 </head>
 <body>
@@ -37,42 +37,42 @@
                 topic: 'data/gmk/k/pkp1',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'ai_refiner[0]', text: 'Temp Cooling Tank 1'}]"
+            :default-data="[{data: 'ai_refiner.1]', text: 'Temp Cooling Tank 1'}]"
             :columns="[
-                {data: 'ai_refiner[0]', text: 'Temp Cooling Tank 1'},
-                {data: 'ai_refiner[1]', text: 'Temp Holding Tank 1'},
-                {data: 'ai_refiner[2]', text: 'Temp Cooling Tank 5'},
-                {data: 'ai_refiner[3]', text: 'Temp Holding Tank 6'},
-                {data: 'ai_refiner[4]', text: 'Temp Cooling Tank LM3'},
-                {data: 'ai_refiner[5]', text: 'Temp Holding Tank LM3'},
+                {data: 'ai_refiner.0', text: 'Temp Cooling Tank 1'},
+                {data: 'ai_refiner.1', text: 'Temp Holding Tank 1'},
+                {data: 'ai_refiner.2', text: 'Temp Cooling Tank 5'},
+                {data: 'ai_refiner.3', text: 'Temp Holding Tank 6'},
+                {data: 'ai_refiner.4', text: 'Temp Cooling Tank LM3'},
+                {data: 'ai_refiner.5', text: 'Temp Holding Tank LM3'},
 
-                {data: 'di_refiner[0]', text: 'Cooling Tank 1 Run'},
-                {data: 'di_refiner[1]', text: 'Hold Tank 1 Run'},
-                {data: 'di_refiner[2]', text: 'Cooling Tank 5 Run'},
-                {data: 'di_refiner[3]', text: 'Hold Tank 6 Run'},
-                {data: 'di_refiner[4]', text: 'Cooling Tank LM3 Run'},
-                {data: 'di_refiner[5]', text: 'Holding Tank LM3 Run'}
+                {data: 'di_refiner.0', text: 'Cooling Tank 1 Run'},
+                {data: 'di_refiner.1', text: 'Hold Tank 1 Run'},
+                {data: 'di_refiner.2', text: 'Cooling Tank 5 Run'},
+                {data: 'di_refiner.3', text: 'Hold Tank 6 Run'},
+                {data: 'di_refiner.4', text: 'Cooling Tank LM3 Run'},
+                {data: 'di_refiner.5', text: 'Holding Tank LM3 Run'}
             ]"></trend-live>
 
         <trend-view 
             v-if="active == 'history'"
             title="Refiner Trend View Historical"
             url="http://10.10.10.111:9501/trend/6/data"
-            :default-data="[{data: 'ai_refiner[0]', text: 'Temp Cooling Tank 1'}]"
+            :default-data="[{data: 'ai_refiner.0', text: 'Temp Cooling Tank 1'}]"
             :columns="[
-                {data: 'ai_refiner[0]', text: 'Temp Cooling Tank 1'},
-                {data: 'ai_refiner[1]', text: 'Temp Holding Tank 1'},
-                {data: 'ai_refiner[2]', text: 'Temp Cooling Tank 5'},
-                {data: 'ai_refiner[3]', text: 'Temp Holding Tank 6'},
-                {data: 'ai_refiner[4]', text: 'Temp Cooling Tank LM3'},
-                {data: 'ai_refiner[5]', text: 'Temp Holding Tank LM3'},
+                {data: 'ai_refiner.0', text: 'Temp Cooling Tank 1'},
+                {data: 'ai_refiner.1', text: 'Temp Holding Tank 1'},
+                {data: 'ai_refiner.2', text: 'Temp Cooling Tank 5'},
+                {data: 'ai_refiner.3', text: 'Temp Holding Tank 6'},
+                {data: 'ai_refiner.4', text: 'Temp Cooling Tank LM3'},
+                {data: 'ai_refiner.5', text: 'Temp Holding Tank LM3'},
 
-                {data: 'di_refiner[0]', text: 'Cooling Tank 1 Run'},
-                {data: 'di_refiner[1]', text: 'Hold Tank 1 Run'},
-                {data: 'di_refiner[2]', text: 'Cooling Tank 5 Run'},
-                {data: 'di_refiner[3]', text: 'Hold Tank 6 Run'},
-                {data: 'di_refiner[4]', text: 'Cooling Tank LM3 Run'},
-                {data: 'di_refiner[5]', text: 'Holding Tank LM3 Run'}
+                {data: 'di_refiner.0', text: 'Cooling Tank 1 Run'},
+                {data: 'di_refiner.1', text: 'Hold Tank 1 Run'},
+                {data: 'di_refiner.2', text: 'Cooling Tank 5 Run'},
+                {data: 'di_refiner.3', text: 'Hold Tank 6 Run'},
+                {data: 'di_refiner.4', text: 'Cooling Tank LM3 Run'},
+                {data: 'di_refiner.5', text: 'Holding Tank LM3 Run'}
             ]"></trend-view>
 
     </div>

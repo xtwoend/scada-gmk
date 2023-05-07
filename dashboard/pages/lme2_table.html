@@ -6,7 +6,7 @@
         <title>Auto COT Pump</title>
         
         <script type="module" crossorigin src="/assets/vendor.3bd57d60.js"></script>
-        <script type="module" crossorigin src="/assets/app.31ffec82.js"></script>
+        <script type="module" crossorigin src="/assets/app.f2e3a03b.js"></script>
         <link rel="stylesheet" href="/assets/app.c316c2cb.css">
     </head>
     <body>
@@ -18,21 +18,23 @@
                     title="LME 2 - Data Logger"
                     :headers="[
                         {text: 'Timestamp', value: 'terminal_time', sortable: true},
-                        {value: 'CUM_ST_FeedScrSpeed', text: 'CUM Feed Scr Speed'},
-                        {value: 'CUM_ST_MillCurrent', text: 'CUM Mill Current'},
-                        {value: 'CUM_ST_MillSpeed', text: 'CUM Mill Speed'},
-                        {value: 'LME_ST_FeedPSpeed', text: 'LME Feed Speed'},
-                        {value: 'LME_ST_InProdPres', text: 'LME IN Prod Press'},
-                        {value: 'LME_ST_MillCurrent', text: 'LME Mill Current'},
-                        {value: 'LME_ST_OutProdTemp', text: 'LME Out Prod Temperature'},
-                        {value: 'STK_ST_DiscScrSpeed', text: 'STK Disc Scr Speed'},
-                        {value: 'STK_ST_SugTkWeig', text: 'STK Sug Weight'},
-                        {value: 'TK_ST_CoolTkTemp', text: 'TK Cool Temperature'},
-                        {value: 'TK_ST_CoolTkWeig', text: 'TK Cool Weight'},
-                        {value: 'TK_ST_HoldTkTemp', text: 'TK Hold Temperature'},
-                        {value: 'TK_ST_HoldTkWeig', text: 'TK Hold Weight'},
-                        {value: 'TK_ST_LecDosPSpeed', text: 'TK Lec Dos Speed'},
-                        {value: 'TK_ST_LecTkLevel', text: 'TK Lec Level'},
+                        {value: 'HMI_TK_ST_DispTKTemp', text: 'Product Mixer Temperatur(°C)'},
+                        {value: 'HMI_TK_ST_HoldTkTemp', text: 'Product HT Temperatur(°C)'},
+                        {value: 'HMI_LME_ST_FeedPSpeed', text: 'LME500 FeedPump Speed (rpm)'},
+                        {value: 'HMI_TK_ST_DispSpeed', text: 'Disp Motor Speed (rpm)'},
+                        {value: 'HMI_LME_ST_MillSpeed', text: 'LME500 Mill Speed (rpm)'},
+                        {value: 'HMI_LME_ST_MillCurrent', text: 'Mill LME500 Current (A)'},
+                        {value: 'HMI_LME_ST_InProdPres', text: 'LME Product Pressure (bar)'},
+                        {value: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Out Product Temperature (°C)'},
+                        
+                        {value: 'HMI_TK_ST_TksTransfPump_Status', text: 'Transfer Pump Status'},
+                        {value: 'HMI_LME_ST_MillMotor_Status', text: 'Mill Motor Status'},
+                        {value: 'HMI_LME_ST_FeedingPump_Status', text: 'Feed Pump Status'}.
+                        
+                        
+                        {value: 'HMI_TK_ST_DispTkAgit_status', text: 'CT Agitator Status'},
+                        {value: 'HMI_TK_ST_HoldTkAgit_status', text: 'HT Agitator Status'},
+                        {value: 'HMI_LME_ST_RecirPump_status', text: 'LME Recirc Pump Status'}
                     ]"
                     ref="vtable"
                     >
