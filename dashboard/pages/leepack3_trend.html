@@ -29,9 +29,9 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="LEEPACK 3 - Trend View Live"
-            url="http://localhost:9501/mqtt/3/log"
+            url="http://10.10.10.111:9501/mqtt/3/log"
             :mqtt="{
-                url: 'ws://localhost:9001',
+                url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
                 password: 'password123',
                 topic: 'data/gmk/k/leepack3',
@@ -50,7 +50,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="LEEPACK 3 - Trend View Historical"
-            url="http://localhost:9501/trend/3/data"
+            url="http://10.10.10.111:9501/trend/3/data"
             :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},

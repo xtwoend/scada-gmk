@@ -29,9 +29,9 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Refiner Trend View Live"
-            url="http://localhost:9501/mqtt/6/log"
+            url="http://10.10.10.111:9501/mqtt/6/log"
             :mqtt="{
-                url: 'ws://localhost:9001',
+                url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
                 password: 'password123',
                 topic: 'data/gmk/k/pkp1',
@@ -57,7 +57,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="Refiner Trend View Historical"
-            url="http://localhost:9501/trend/6/data"
+            url="http://10.10.10.111:9501/trend/6/data"
             :default-data="[{data: 'ai_refiner.0', text: 'Temp Cooling Tank 1'}]"
             :columns="[
                 {data: 'ai_refiner.0', text: 'Temp Cooling Tank 1'},
