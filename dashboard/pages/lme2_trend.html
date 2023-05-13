@@ -37,7 +37,7 @@
                 topic: 'data/gmk/k/lme2',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'HMI_LME_ST_FeedPSpeed', text: 'LME Feed Speed (RPM)'}]"
+          
             :columns="[
                 {data: 'HMI_TK_ST_DispTKTemp', text: 'Product Mixer Temperatur(°C)'},
                 {data: 'HMI_TK_ST_HoldTkTemp', text: 'Product HT Temperatur(°C)'},
@@ -63,7 +63,7 @@
             v-if="active == 'history'"
             title="LME 2 - Trend View Historical"
             url="http://10.10.10.111:9501/trend/8/data"
-            :default-data="[{data: 'HMI_LME_ST_FeedPSpeed', text: 'LME Feed Speed (RPM)'}]"
+           
             :columns="[
                 {data: 'HMI_TK_ST_DispTKTemp', text: 'Product Mixer Temperatur(°C)'},
                 {data: 'HMI_TK_ST_HoldTkTemp', text: 'Product HT Temperatur(°C)'},

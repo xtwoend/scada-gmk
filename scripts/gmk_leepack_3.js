@@ -12,7 +12,34 @@ setTag('sv_filling_pulse_leepack3', data.sv_filling_pulse);
 //setTag('level_hopper_leepack3', data.level_hopper);
 }  
 
+var leepack3_alarm = getTag('data_alarm_leepack3');
 
+
+
+
+
+eval('data_alarm =' + leepack3_alarm);
+
+
+
+
+
+
+
+
+
+
+
+if(typeof data_alarm == 'object') {
+
+
+
+setTag('Leepack3_alarm_message', data_alarm.message); 
+
+setTag('Leepack3_alarm_status', data_alarm.status); 
+
+} 
+  
   
 
 

@@ -37,7 +37,7 @@
                 topic: 'data/gmk/k/leepack3',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+         
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
                 {data: 'sv_bag', text: 'SV Bag'},
@@ -51,7 +51,7 @@
             v-if="active == 'history'"
             title="LEEPACK 3 - Trend View Historical"
             url="http://10.10.10.111:9501/trend/3/data"
-            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+           
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
                 {data: 'sv_bag', text: 'SV Bag'},

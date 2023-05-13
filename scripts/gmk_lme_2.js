@@ -26,6 +26,24 @@ setTag('LME2_HMI_TK_ST_DispTkAgit_status', data.HMI_TK_ST_DispTkAgit_status);
 setTag('LME2_HMI_TK_ST_HoldTkAgit_status', data.HMI_TK_ST_HoldTkAgit_status);
 setTag('LME2_HMI_LME_ST_RecirPump_status', data.HMI_LME_ST_RecirPump_status);
 }  
+
+var lme2_alarm = getTag('data_alarm_lme2');
+
+
+
+eval('data_alarm =' + lme2_alarm);
+
+
+
+
+
+
+
+if(typeof data_alarm == 'object') {
+
+setTag('LME2_alarm_message', data_alarm.message); 
+setTag('LME2_alarm_status', data_alarm.status); 
+} 
   
 
 

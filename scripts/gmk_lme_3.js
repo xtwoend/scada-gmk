@@ -21,7 +21,25 @@ setTag('data9_LME3', data.data9); // Product Output Temperature
 
 setTag('LME3_IHM_ST_Moinho_status', data.IHM_ST_Moinho_status);
 }  
+ 
   
+var lme3_alarm = getTag('data_alarm_lme3');
+
+
+
+eval('data_alarm =' + lme3_alarm);
+
+
+
+
+
+
+
+if(typeof data_alarm == 'object') {
+
+setTag('LME3_alarm_message', data_alarm.message); 
+setTag('LME3_alarm_status', data_alarm.status); 
+} 
 
 
 

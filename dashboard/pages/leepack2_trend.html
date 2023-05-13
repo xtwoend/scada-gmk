@@ -37,7 +37,7 @@
                 topic: 'data/gmk/k/leepack2',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+          
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
                 {data: 'sv_speed_bpm', text: 'SV Speed BPM'},
@@ -53,7 +53,7 @@
             v-if="active == 'history'"
             title="LEEPACK 2 - Trend View Historical"
             url="http://10.10.10.111:9501/trend/2/data"
-            :default-data="[{data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'}]"
+           
             :columns="[
                 {data: 'mc_run', text: 'MC Status (1: ON, 0: OFF)'},
                 {data: 'sv_speed_bpm', text: 'SV Speed BPM'},

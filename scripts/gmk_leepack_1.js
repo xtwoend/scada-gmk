@@ -21,6 +21,24 @@ setTag('pv_filling_speed_rpm_leepack1', data.pv_filling_speed_rpm);
 
 
 }  
+
+var leepack1_alarm = getTag('data_alarm_leepack1');
+
+
+
+eval('data_alarm =' + leepack1_alarm);
+
+
+
+
+
+
+
+if(typeof data_alarm == 'object') {
+
+setTag('Leepack1_alarm_message', data_alarm.message); 
+setTag('Leepack1_alarm_status', data_alarm.status); 
+} 
   
 
 

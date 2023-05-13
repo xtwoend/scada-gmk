@@ -37,7 +37,7 @@
                 topic: 'data/gmk/k/lme1',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Product Temperature (°C)'}]"
+          
             :columns="[
                 {data: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
                 {data: 'HMI_TK_ST_CoolTkTemp', text: 'Product CT Temperatur(°C)'},
@@ -61,7 +61,7 @@
             v-if="active == 'history'"
             title="LME 1 - Trend View Historical"
             url="http://10.10.10.111:9501/trend/7/data"
-            :default-data="[{data: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Product Temperature (°C)'}]"
+           
             :columns="[
             {data: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
             {data: 'HMI_TK_ST_CoolTkTemp', text: 'Product CT Temperatur(°C)'},

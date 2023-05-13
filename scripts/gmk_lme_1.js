@@ -27,6 +27,17 @@ setTag('LME1_HMI_LME_ST_RecirPump_status', data.HMI_LME_ST_RecirPump_status);
 
 
 
+var lme1_alarm = getTag('data_alarm_lme1');
+
+eval('data_alarm =' + lme1_alarm);
+
+
+
+if(typeof data_alarm == 'object') {
+
+setTag('LME1_alarm_message', data_alarm.message); 
+setTag('LME1_alarm_status', data_alarm.status); 
+} 
 
 
 

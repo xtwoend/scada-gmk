@@ -37,7 +37,7 @@
                 topic: 'data/gmk/k/lme3',
                 timefield: 'ts'
             }"
-            :default-data="[{data: 'data6', text: 'Feed Pump Speed (RPM)'}]"
+           
             :columns="[
                 {data: 'data1', text: 'Mill Current (a)'},
                 {data: 'data3', text: 'Mill Inlet Pressure (bar)'},
@@ -52,7 +52,7 @@
             v-if="active == 'history'"
             title="LME 3 - Trend View Historical"
             url="http://10.10.10.111:9501/trend/9/data"
-            :default-data="[{data: 'data6', text: 'Feed Pump Speed (RPM)'}]"
+            
             :columns="[
                 {data: 'data1', text: 'Mill Current (a)'},
                 {data: 'data3', text: 'Mill Inlet Pressure (bar)'},
