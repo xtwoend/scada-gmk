@@ -22,6 +22,15 @@ setTag('LME1_HMI_TK_ST_CoolTkAgit_status', data.HMI_TK_ST_CoolTkAgit_status);
 setTag('LME1_HMI_TK_ST_HoldTkAgit_status', data.HMI_TK_ST_HoldTkAgit_status);
 setTag('LME1_HMI_CE_ST_Conche_status', data.HMI_CE_ST_Conche_status);
 setTag('LME1_HMI_LME_ST_RecirPump_status', data.HMI_LME_ST_RecirPump_status);
+setTag('LME1_tank_alarm1', data.tank_alarm1);
+setTag('LME1_tank_alarm2', data.tank_alarm2);
+setTag('LME1_lme_alarm1', data.lme_alarm1);
+setTag('LME1_lme_alarm2', data.lme_alarm2);
+setTag('LME1_stk_alarm1', data.stk_alarm);
+setTag('LME1_cum_alarm1', data.cum_alarm1);
+setTag('LME1_cum_alarm2', data.cum_alarm2);
+setTag('LME1_ce_alarm1', data.ce_alarm1);
+setTag('LME1_ce_alarm2', data.ce_alarm2);
 }  
   
 

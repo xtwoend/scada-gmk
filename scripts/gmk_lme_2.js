@@ -25,6 +25,13 @@ setTag('LME2_HMI_TK_ST_DispTkAgit_status', data.HMI_TK_ST_DispTkAgit_status);
 
 setTag('LME2_HMI_TK_ST_HoldTkAgit_status', data.HMI_TK_ST_HoldTkAgit_status);
 setTag('LME2_HMI_LME_ST_RecirPump_status', data.HMI_LME_ST_RecirPump_status);
+
+setTag('LME2_in_alarm1', data.in_alarm1);
+setTag('LME2_in_alarm2', data.in_alarm2);
+setTag('LME2_tk_alarm1', data.tk_alarm1);
+setTag('LME2_tk_alarm2', data.tk_alarm2);
+setTag('LME2_lme_alarm1', data.lme_alarm1);
+setTag('LME2_lme_alarm2', data.lme_alarm2);
 }  
 
 var lme2_alarm = getTag('data_alarm_lme2');

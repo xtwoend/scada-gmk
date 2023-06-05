@@ -18,7 +18,7 @@ setTag('pv_bag_leepack1', data.pv_bag);
 setTag('sv_filling_speed_rpm_leepack1', data.sv_filling_speed_rpm);
 setTag('pv_filling_speed_rpm_leepack1', data.pv_filling_speed_rpm);
 //setTag('level_hopper_leepack1', data.level_hopper);
-
+setTag('Leepack1_alarm_occured', data.alarm_occured);
 
 }  
 

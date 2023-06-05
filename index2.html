@@ -340,18 +340,18 @@ var opt = {};
 
 opt['alarm'] = {
     "mode": "footer",
-    "row-per-page": 2, // This number will define how many rows will be shown
-    //"row-footer": 2, // If alarm in footer mode, this will define how many rows will be shown in the footer
+    "row-per-page": 5, // This number will define how many rows will be shown
+    "row-footer": 5, // If alarm in footer mode, this will define how many rows will be shown in the footer
     "order": "state",  // "state" or "timestamp"
     // "audio": "media/ding.ogg",
     "column": {
         "time_stamp": true,
         "tag_name": false,
-        "group_name": true,
+        "group_name": false,
         "description": false,
         "message": true,
-        "nvalue": true,
-        "old_nvalue": true,
+        "nvalue": false,
+        "old_nvalue": false,
         "svalue": false,
         "old_svalue": false,
         "inactive_timestamp": true,

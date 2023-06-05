@@ -20,6 +20,12 @@ setTag('data9_LME3', data.data9); // Product Output Temperature
 //setTag('data10_LME3', data.data10); // Heat Xchanger Temperature
 
 setTag('LME3_IHM_ST_Moinho_status', data.IHM_ST_Moinho_status);
+
+setTag('LME3_alarm1', data.alarm1);
+setTag('LME3_alarm2', data.alarm2);
+setTag('LME3_alarm3', data.alarm3);
+setTag('LME3_alarm4', data.alarm4);
+
 }  
  
   

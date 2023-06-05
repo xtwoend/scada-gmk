@@ -141,8 +141,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87109375"
-     inkscape:cx="840.44835"
-     inkscape:cy="217.20395"
+     inkscape:cx="350.47918"
+     inkscape:cy="209.46335"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1019,13 +1019,13 @@
        id="rect4617"
        width="588.31494"
        height="60.009266"
-       x="225.98576"
-       y="47.095924"
+       x="-119.55684"
+       y="695.70581"
        inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;Leepack3_alarm_status&quot;}" />
     <g
        id="g4611"
        inkscape:label="{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;Leepack3_alarm_status&quot;}"
-       transform="matrix(0.55641312,0,0,0.49654328,245.85972,-25.634239)">
+       transform="matrix(0.55641312,0,0,0.49654328,-99.682876,622.97563)">
       <rect
          y="231.66887"
          x="-21.3402"
@@ -1058,15 +1058,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="282.46301"
-       y="82.458351"
+       x="-63.07959"
+       y="731.06824"
        id="text152"
        sodipodi:linespacing="125%"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;Leepack3_alarm_message&quot;,&quot;type&quot;:&quot;Good&quot;},{&quot;attr&quot;:&quot;opac&quot;,&quot;max&quot;:1,&quot;min&quot;:0,&quot;tag&quot;:&quot;Leepack3_alarm_status&quot;}"><tspan
          sodipodi:role="line"
          id="tspan154"
-         x="282.46301"
-         y="82.458351"
+         x="-63.07959"
+         y="731.06824"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;text-anchor:start;fill:#ff0000">MESSAGE</tspan></text>
   </g>
 </svg>

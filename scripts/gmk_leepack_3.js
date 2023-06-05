@@ -10,6 +10,7 @@ setTag('pv_bag_leepack3', data.pv_bag);
 setTag('sv_filling_speed_rpm_leepack3', data.sv_filling_speed_rpm);
 setTag('sv_filling_pulse_leepack3', data.sv_filling_pulse);
 //setTag('level_hopper_leepack3', data.level_hopper);
+setTag('Leepack3_alarm_occured', data.alarm_occured);
 }  
 
 var leepack3_alarm = getTag('data_alarm_leepack3');

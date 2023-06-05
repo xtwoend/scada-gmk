@@ -28,7 +28,7 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="LEEPACK 2 - Trend View Live"
+            title="LEEPACK 1 (RT-108) - Trend View Live"
             url="http://10.10.10.111:9501/mqtt/2/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
@@ -51,7 +51,7 @@
 
         <trend-view 
             v-if="active == 'history'"
-            title="LEEPACK 2 - Trend View Historical"
+            title="LEEPACK 1 (RT-108) - Trend View Historical"
             url="http://10.10.10.111:9501/trend/2/data"
            
             :columns="[
