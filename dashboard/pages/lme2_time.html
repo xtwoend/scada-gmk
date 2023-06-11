@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.99495360.js"></script>
+        <script type="module" crossorigin src="/assets/app.1fb23f51.js"></script>
+        <link rel="stylesheet" href="/assets/app.0ccc9b37.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/7/data"
+                    export="http://10.10.10.111:9501/table/7/export"
+                    title="LME 1 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'HMI_CE_ST_ConcProdTemp', text: 'Conche Product Temperatur(°C)'},
+                        {value: 'HMI_TK_ST_CoolTkTemp', text: 'Product CT Temperatur(°C)'},
+                        {value: 'HMI_TK_ST_HoldTkTemp', text: 'Product HT Temperatur(°C)'},
+                        {value: 'HMI_LME_ST_FeedPSpeed', text: 'LME500 FeedPump Speed (rpm)'},
+                        {value: 'HMI_CUM_ST_MillSpeed', text: 'LME 500 Mill Speed (rpm)'},
+                        {value: 'HMI_LME_ST_MillCurrent', text: 'LME500 Mill Current (A)'},
+                        {value: 'HMI_LME_ST_InProdPres', text: 'LME500 Product Pressure (bar)'},
+                        {value: 'HMI_LME_ST_OutProdTemp', text: 'LME500 Product Temperature (°C)'},
+                        {value: 'LME_ST_MillMotor_Status', text: 'Mill Motor Status'},
+                        {value: 'TK_ST_TksTransfPump_Status', text: 'Transfer Pump Status'},
+                        {value: 'LME_ST_FeedingPump_Status', text: 'Feed Pump Status'},                
+                        {value: 'HMI_TK_ST_CoolTkAgit_status', text: 'CT Agitator Status'},
+                        {value: 'HMI_TK_ST_HoldTkAgit_status', text: 'HT Agitator Status'},
+                        {value: 'HMI_CE_ST_Conche_status', text: 'CE Motor Status'},
+                        {value: 'HMI_LME_ST_RecirPump_status', text: 'LME Recirc Pump Status'}
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
