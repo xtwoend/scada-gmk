@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <script type="module" cross origin src="/assets/vendor.43ede44d.js"></script>
-    <script type="module" cross origin src="/assets/app.bbe1bf3f.js"></script>
+    <script type="module" cross origin src="/assets/vendor.f367ad33.js"></script>
+    <script type="module" cross origin src="/assets/app.c4a0ac26.js"></script>
     <link rel="stylesheet" href="/assets/app.e371d6a6.css">
 </head>
 <body>
@@ -26,7 +26,7 @@
                 </label>
             </div>
         </div>
-        <trend-live 
+        <trend-live-lme 
             v-if="active == null || active == 'live'"
             title="LME 1 - Trend View Live"
             url="http://10.10.10.111:9501/mqtt/7/log"
@@ -55,11 +55,11 @@
                 {data: 'HMI_TK_ST_HoldTkAgit_status', text: 'HT Agitator Status'},
                 {data: 'HMI_CE_ST_Conche_status', text: 'CE Motor Status'},
                 {data: 'HMI_LME_ST_RecirPump_status', text: 'LME Recirc Pump Status'},
-                
-                {data: 'chilled_water_in', text: 'Chilled Water In'},
-                {data: 'chilled_water_out', text: 'Chilled Water Out'},
 
-            ]"></trend-live>
+                {data: 'ai_pkp1.1->1', text: 'Chilled Water In'},
+                {data: 'ai_pkp1.1->2', text: 'Chilled Water Out'},
+
+            ]"></trend-live-lme>
 
         <trend-view 
             v-if="active == 'history'"
