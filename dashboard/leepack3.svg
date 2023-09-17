@@ -141,13 +141,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87109375"
-     inkscape:cx="350.47918"
-     inkscape:cy="209.46335"
+     inkscape:cx="50.262691"
+     inkscape:cy="347.79519"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-width="2560"
+     inkscape:window-height="1537"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      borderlayer="true"
@@ -555,47 +555,47 @@
        width="67.077003"
        height="28.355072"
        x="49.311119"
-       y="77.179573" />
+       y="77.41275" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
        id="rect3739-7-3-6-3-8-7-4-4-9-9-4-4"
        width="67.077003"
        height="28.355072"
        x="49.311119"
-       y="77.179573" />
+       y="77.41275" />
     <rect
        style="fill:#e6e6e6"
        id="rect4307-16-8-1-4-5-5-1-6-0-1"
        width="135.40807"
        height="31"
        x="77.885338"
-       y="76.268867" />
+       y="76.502045" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="167.72772"
-       y="90.65242"
+       y="90.873917"
        id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-4"
        sodipodi:linespacing="125%"
        transform="scale(0.9493527,1.0533493)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;sv_filling_speed_rpm_leepack3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="167.72772"
-         y="90.65242"
+         y="90.873917"
          id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-3"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#000000">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45.42758179px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="187.88841"
-       y="85.480522"
+       y="85.692245"
        id="text413-1-0-2-0-1-2-0-56-2-4-1"
        sodipodi:linespacing="125%"
        transform="scale(0.90809439,1.1012071)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-6-0-86-1-3-2-4"
          x="187.88841"
-         y="85.480522"
+         y="85.692245"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#000000">rpm</tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1"
@@ -603,19 +603,19 @@
        width="175.67148"
        height="26.9576"
        x="37.621788"
-       y="47.311226" />
+       y="47.544418" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="77.484238"
-       y="65.981918"
+       y="66.210556"
        id="text532-76-30-4-5-4-3-8-6-5"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-0"
          x="77.484238"
-         y="65.981918"
+         y="66.210556"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Filling  Speed</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
@@ -623,19 +623,19 @@
        width="40.209595"
        height="31"
        x="37.675743"
-       y="76.268867" />
+       y="76.502045" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="51.018974"
-       y="95.226158"
+       y="95.454681"
        id="text532-76-30-4-5-4-3-8-6-7-05"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-4-1"
          x="51.018974"
-         y="95.226158"
+         y="95.454681"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">SP</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -643,47 +643,47 @@
        width="67.077003"
        height="28.355072"
        x="47.272484"
-       y="219.91412" />
+       y="220.14731" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
        id="rect3739-7-3-6-3-8-7-4-4-9-9-4-5"
        width="67.077003"
        height="28.355072"
        x="47.272484"
-       y="219.91412" />
+       y="220.14731" />
     <rect
        style="fill:#e6e6e6"
        id="rect4307-16-8-1-4-5-5-1-6-0-47"
        width="135.40807"
        height="31"
        x="75.846703"
-       y="219.00348" />
+       y="219.23666" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="164.97577"
-       y="227.52826"
+       y="227.74989"
        id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-2"
        sodipodi:linespacing="125%"
        transform="scale(0.9493527,1.0533493)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;sv_bag_leepack3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="164.97577"
-         y="227.52826"
+         y="227.74989"
          id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#000000">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45.42758179px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="186.27544"
-       y="216.92108"
+       y="217.13298"
        id="text413-1-0-2-0-1-2-0-56-2-4-52"
        sodipodi:linespacing="125%"
        transform="scale(0.90809439,1.1012071)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-6-0-86-1-3-2-2"
          x="186.27544"
-         y="216.92108"
+         y="217.13298"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#000000">bag</tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1"
@@ -691,19 +691,19 @@
        width="175.67148"
        height="26.9576"
        x="35.583153"
-       y="190.04578" />
+       y="190.27896" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="93.767509"
-       y="205.89264"
+       y="206.12123"
        id="text532-76-30-4-5-4-3-8-6-8"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-7"
          x="93.767509"
-         y="205.89264"
+         y="206.12123"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Target Bag</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
@@ -711,19 +711,19 @@
        width="40.209595"
        height="31"
        x="35.637108"
-       y="219.00348" />
+       y="219.23666" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="48.93914"
-       y="235.13667"
+       y="235.36549"
        id="text532-76-30-4-5-4-3-8-6-7-9"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-4-8"
          x="48.93914"
-         y="235.13667"
+         y="235.36549"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">SP</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -731,47 +731,47 @@
        width="67.077003"
        height="28.355072"
        x="47.272484"
-       y="251.21405" />
+       y="251.44724" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
        id="rect3739-7-3-6-3-8-7-4-4-9-9-4-64-7"
        width="67.077003"
        height="28.355072"
        x="47.272484"
-       y="251.21405" />
+       y="251.44724" />
     <rect
        style="fill:#e6e6e6"
        id="rect4307-16-8-1-4-5-5-1-6-0-7-0"
        width="135.40807"
        height="31"
        x="75.846703"
-       y="250.60339" />
+       y="250.83658" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="165.58038"
-       y="256.4256"
+       y="256.64722"
        id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-7-1"
        sodipodi:linespacing="125%"
        transform="scale(0.9493527,1.0533493)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;pv_bag_leepack3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="165.58038"
-         y="256.4256"
+         y="256.64722"
          id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-1-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#000000">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45.42758179px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="185.9594"
-       y="245.08374"
+       y="245.29564"
        id="text413-1-0-2-0-1-2-0-56-2-4-49-9"
        sodipodi:linespacing="125%"
        transform="scale(0.90809439,1.1012071)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-6-0-86-1-3-2-3-2"
          x="185.9594"
-         y="245.08374"
+         y="245.29564"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#000000">bag</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
@@ -779,19 +779,19 @@
        width="40.209595"
        height="31"
        x="35.637108"
-       y="250.60339" />
+       y="250.83658" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="48.93914"
-       y="265.81729"
+       y="266.0463"
        id="text532-76-30-4-5-4-3-8-6-7-0-4"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-4-5-50"
          x="48.93914"
-         y="265.81729"
+         y="266.0463"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">PV</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1"
@@ -799,47 +799,47 @@
        width="67.077003"
        height="28.355072"
        x="47.698082"
-       y="147.91734" />
+       y="148.15053" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
        id="rect3739-7-3-6-3-8-7-4-4-9-9-4-4-7"
        width="67.077003"
        height="28.355072"
        x="47.698082"
-       y="147.91734" />
+       y="148.15053" />
     <rect
        style="fill:#e6e6e6"
        id="rect4307-16-8-1-4-5-5-1-6-0-1-6"
        width="135.40807"
        height="31"
        x="76.27224"
-       y="147.00664" />
+       y="147.23982" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="165.72632"
-       y="158.63333"
+       y="158.85497"
        id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-4-7"
        sodipodi:linespacing="125%"
        transform="scale(0.9493527,1.0533493)"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;sv_filling_pulse_leepack3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          sodipodi:role="line"
          x="165.72632"
-         y="158.63333"
+         y="158.85497"
          id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-3-7"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#000000">0.00</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:45.42758179px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="185.79607"
-       y="151.28073"
+       y="151.49263"
        id="text413-1-0-2-0-1-2-0-56-2-4-1-3"
        sodipodi:linespacing="125%"
        transform="scale(0.90809439,1.1012071)"><tspan
          sodipodi:role="line"
          id="tspan415-7-2-6-0-6-0-86-1-3-2-4-6"
          x="185.79607"
-         y="151.28073"
+         y="151.49263"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';fill:#000000">Pulse</tspan></text>
     <rect
        style="fill:#cccccc;fill-opacity:1"
@@ -847,19 +847,19 @@
        width="175.67148"
        height="26.9576"
        x="36.00869"
-       y="118.049" />
+       y="118.2822" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="75.838669"
-       y="135.3205"
+       y="135.5489"
        id="text532-76-30-4-5-4-3-8-6-5-1"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-0-6"
          x="75.838669"
-         y="135.3205"
+         y="135.5489"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Filling  Pulse</tspan></text>
     <rect
        style="fill:#00ffff;fill-opacity:1"
@@ -867,77 +867,20 @@
        width="40.209595"
        height="31"
        x="36.062645"
-       y="147.00664" />
+       y="147.23982" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="49.373405"
-       y="164.56476"
+       y="164.79317"
        id="text532-76-30-4-5-4-3-8-6-7-05-4"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-4-1-6"
          x="49.373405"
-         y="164.56476"
+         y="164.79317"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">SP</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="884.6084"
-       y="108.66282"
-       id="text5540"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan5542"
-         x="884.6084"
-         y="108.66282"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">Packing process</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="124.28782"
-         id="tspan5544"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'" /><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="139.91281"
-         id="tspan5546"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">1.Bag loading</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="155.53783"
-         id="tspan5548"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">2.Date coding</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="171.16283"
-         id="tspan5550"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">3.Bag opening</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="186.78783"
-         id="tspan5552"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">4.Filling</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="202.41283"
-         id="tspan5554"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">5.Extra</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="218.03783"
-         id="tspan5556"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">6.Extra</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="233.66283"
-         id="tspan5558"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">7.Sealing</tspan><tspan
-         sodipodi:role="line"
-         x="884.6084"
-         y="249.28783"
-         id="tspan5560"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.5px;font-family:Arial;-inkscape-font-specification:'Arial Bold'">8.Cooling,Discharge</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -957,33 +900,33 @@
        width="67.077003"
        height="28.355072"
        x="45.922539"
-       y="396.45288" />
+       y="330.68607" />
     <rect
        style="fill:#ffffff;fill-opacity:1"
        id="rect3739-7-3-6-3-8-7-4-4-9-9-4-5-69-3"
        width="67.077003"
        height="28.355072"
        x="45.922539"
-       y="396.45288" />
+       y="330.68607" />
     <rect
        style="fill:#e6e6e6"
        id="rect4307-16-8-1-4-5-5-1-6-0-47-1-6"
        width="175.9933"
        height="31"
        x="33.911568"
-       y="395.5423" />
+       y="329.77548" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="148.12671"
-       y="395.10873"
+       y="332.67285"
        id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-2-0-7"
        sodipodi:linespacing="125%"
        transform="scale(0.9493527,1.0533493)"
-       inkscape:label="{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;0=STOP&quot;,&quot;1=RUN&quot;,&quot;2=STOP&quot;],&quot;tag&quot;:&quot;mc_run_leepack3&quot;}"><tspan
+       inkscape:label="{&quot;@ttr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;0=STOP&quot;,&quot;1=RUN&quot;,&quot;2=STOP&quot;,&quot;=STOP&quot;],&quot;tag&quot;:&quot;mc_run_leepack3&quot;}"><tspan
          sodipodi:role="line"
          x="148.12671"
-         y="395.10873"
+         y="332.67285"
          id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-2-2-2"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:end;text-anchor:end;fill:#000000">STOP</tspan></text>
     <rect
@@ -992,19 +935,19 @@
        width="175.67148"
        height="26.9576"
        x="34.233223"
-       y="366.58453" />
+       y="300.81772" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="102.68741"
-       y="378.93881"
+       y="314.47299"
        id="text532-76-30-4-5-4-3-8-6-8-78-1"
        sodipodi:linespacing="125%"
        transform="scale(0.98021909,1.0201801)"><tspan
          sodipodi:role="line"
          id="tspan534-4-9-9-6-2-4-9-7-7-5-5"
          x="102.68741"
-         y="378.93881"
+         y="314.47299"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Status</tspan></text>
     <image
        y="47.095924"
@@ -1068,5 +1011,60 @@
          x="-63.07959"
          y="731.06824"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;text-anchor:start;fill:#ff0000">MESSAGE</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1"
+       id="rect3739-7-3-6-3-9-4-2-5-4-3-4-6-5-7-4"
+       width="67.077003"
+       height="28.355072"
+       x="-712.46997"
+       y="754.21234" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1"
+       id="rect3739-7-3-6-3-8-7-4-4-9-9-4-5-69-3-0"
+       width="67.077003"
+       height="28.355072"
+       x="-712.46997"
+       y="754.21234" />
+    <rect
+       style="fill:#e6e6e6"
+       id="rect4307-16-8-1-4-5-5-1-6-0-47-1-6-7"
+       width="175.9933"
+       height="31"
+       x="-724.48096"
+       y="753.30176" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.87288189px;line-height:125%;font-family:Tahoma;-inkscape-font-specification:Tahoma;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-671.94989"
+       y="734.74841"
+       id="text4309-4-8-2-7-1-1-9-7-8-6-7-2-3-5-3-2-0-7-5"
+       sodipodi:linespacing="125%"
+       transform="scale(0.9493527,1.0533493)"
+       inkscape:label="{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;1=1KG&quot;,&quot;2=400GR&quot;,&quot;3=200GR&quot;,&quot;4=220GR&quot;,&quot;5=5 KG&quot;],&quot;tag&quot;:&quot;leepack1_product_type&quot;}"><tspan
+         sodipodi:role="line"
+         x="-671.94989"
+         y="734.74841"
+         id="tspan3781-1-8-6-2-6-3-9-4-6-7-7-0-9-1-6-2-2-2-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.70497322px;font-family:Tahoma;-inkscape-font-specification:'Tahoma Bold';text-align:center;text-anchor:middle;fill:#000000">PRODUCT NAME</tspan></text>
+    <rect
+       style="fill:#b3b3b3;fill-opacity:1"
+       id="rect299-8-4-1-9-2-0-3-43-6-5-0"
+       width="175.67148"
+       height="26.9576"
+       x="-724.1593"
+       y="724.34399" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.77397823px;line-height:125%;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-703.65521"
+       y="729.6214"
+       id="text532-76-30-4-5-4-3-8-6-8-78-1-5"
+       sodipodi:linespacing="125%"
+       transform="scale(0.98021909,1.0201801)"><tspan
+         sodipodi:role="line"
+         id="tspan534-4-9-9-6-2-4-9-7-7-5-5-7"
+         x="-703.65521"
+         y="729.6214"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.38121796px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#333333">Product Type</tspan></text>
   </g>
 </svg>

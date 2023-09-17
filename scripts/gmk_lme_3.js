@@ -25,10 +25,21 @@ setTag('LME3_alarm1', data.alarm1);
 setTag('LME3_alarm2', data.alarm2);
 setTag('LME3_alarm3', data.alarm3);
 setTag('LME3_alarm4', data.alarm4);
+setTag('LME3_feedpump_status', data.feedpump_status);
+setTag('LME3_oil_transfer_pump_status', data.oil_transfer_pump_status);
 
+setTag('pkp1.1_a1.5', data['ai_pkp1.1'][5]);
+setTag('pkp1.1_a1.6', data['ai_pkp1.1'][6]);
+
+setTag('pkp1.1_a1.7', data['ai_pkp1.1'][7]);
+
+setTag('pkp1.1_a1.8', data['ai_pkp1.1'][8]);
+setTag('pkp1.1_i2.5', data['di_pkp1.1'][5]);
+
+setTag('pkp1.1_i2.6', data['di_pkp1.1'][6]);
 }  
  
-  
+  //di_pkp1.1
 var lme3_alarm = getTag('data_alarm_lme3');
 
 

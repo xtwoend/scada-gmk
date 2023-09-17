@@ -32,6 +32,8 @@ setTag('LME2_tk_alarm1', data.tk_alarm1);
 setTag('LME2_tk_alarm2', data.tk_alarm2);
 setTag('LME2_lme_alarm1', data.lme_alarm1);
 setTag('LME2_lme_alarm2', data.lme_alarm2);
+setTag('pkp1.1_a1.3', data['ai_pkp1.1'][3]);
+setTag('pkp1.1_a1.4', data['ai_pkp1.1'][4]);
 }  
 
 var lme2_alarm = getTag('data_alarm_lme2');

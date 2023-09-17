@@ -31,9 +31,11 @@ setTag('LME1_cum_alarm1', data.cum_alarm1);
 setTag('LME1_cum_alarm2', data.cum_alarm2);
 setTag('LME1_ce_alarm1', data.ce_alarm1);
 setTag('LME1_ce_alarm2', data.ce_alarm2);
+setTag('pkp1.1_a1.1', data['ai_pkp1.1'][1]);
+setTag('pkp1.1_a1.2', data['ai_pkp1.1'][2]);
 }  
   
-
+//setTag('pkp1.1_a1.1', data.ai_pkp1.1[0]);     // Temp Cooling Tank 1
 
 
 var lme1_alarm = getTag('data_alarm_lme1');
