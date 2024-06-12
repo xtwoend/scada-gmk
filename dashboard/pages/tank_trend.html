@@ -29,7 +29,7 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="Tank Trend View Live"
-            url="http://10.10.10.111:9501/mqtt/2/log"
+            url="http://10.10.10.111:9501/mqtt/6/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
@@ -265,7 +265,7 @@
         <trend-view 
             v-if="active == 'history'"
             title="Tank Trend View Historical"
-            url="http://10.10.10.111:9501/trend/2/data"
+            url="http://10.10.10.111:9501/trend/6/data"
             :default-data="[{data: 'ai_module_1.0', text: 'Temp Tank 1'}]"
             :columns="[
                 {data: 'ai_module_1.0', text: 'Temp Tank 1'},
