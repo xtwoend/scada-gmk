@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+        <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+        <link rel="stylesheet" href="/assets/app.5c01081d.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/10/data"
+                    export="http://10.10.10.111:9501/table/10/export"
+                    title="Salsa 6000 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'mill_status', text: 'Mill Status'},
+                        {value: 'mill_max_speed', text: 'Mill Max Speed'},
+                        {value: 'mill_speed', text: 'Mill Speed'},
+                        {value: 'mill_curent', text: 'Mill Curent'},
+                        {value: 'mill_power', text: 'Mill Power'},
+                        {value: 'sealpump_status', text: 'Sealpump Status'},
+                        {value: 'feedpump_status', text: 'Feedpump Status'},
+                        {value: 'feedpump_maxspeed', text: 'Feedpump Max Speed'},
+                        {value: 'feedpump_minspeed', text: 'Feedpump Min Speed'},
+                        {value: 'feedpump_speed', text: 'Feedpump Speed'},
+                        {value: 'feedpump_current', text: 'Feedpump Current'},
+                        {value: 'feedpump_power', text: 'Feedpump Power'},
+                        {value: 'agitator_status', text: 'Agitator Status'},
+                        {value: 'agitator_maxspeed', text: 'Agitator Max Speed'},
+                        {value: 'agitator_minspeed', text: 'Agitator Min Speed'},
+                        {value: 'agitator_speed', text: 'Agitator Speed'},
+                        {value: 'agitator_current', text: 'Agitator Current'},
+                        {value: 'agitator_power', text: 'Agitator Power'},
+
+                        {value: 'dischpump_status', text: 'Disch Pump Status'},
+                        {value: 'dischpump_maxspeed', text: 'Disch Pump Max Speed'},
+                        {value: 'dischpump_minspeed', text: 'Disch Pump Min Speed'},
+                        {value: 'dischpump_speed', text: 'Disch Pump Speed'},
+                        {value: 'dischpump_current', text: 'Disch Pump Current'},
+                        {value: 'dischpump_power', text: 'Disch Pump Power'},
+
+                        {value: 'general_machine_status', text: 'General Machine Status'},
+                        {value: 'general_energy', text: 'General Energy'},
+                        {value: 'product_pressure_inlet', text: 'Product Pressure Inlet'},
+                        {value: 'product_temperature_outlet', text: 'Product Temperature Outlet'},
+                        {value: 'cooling_water_flow', text: 'Cooling Water Flow'}
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
