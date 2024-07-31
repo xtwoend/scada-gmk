@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+        <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+        <link rel="stylesheet" href="/assets/app.5c01081d.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/11/data"
+                    export="http://10.10.10.111:9501/table/11/export"
+                    title="Salsa 6000 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'mixing_tank_product_temp', text: 'Mixing Tank Product Temperature'},
+                        {value: 'cocoa_butter_melter_boiler_water_temperature', text: 'Cocoa Butter Melter Boiler Water Temperature'},
+                        {value: 'fat_storage_tank_temperature', text: 'Fat Storage Tank Temperature'},
+                        {value: 'lecithin_feed_tank_level', text: 'Lecithin Feed Tank Level'},
+                        {value: 'process_tank_level', text: 'Process Tank Level'},
+                        {value: 'process_tank_temperature', text: 'Process Tank Temperature'},
+                        {value: 'cleaning_fat_tank_pressure', text: 'Cleaning Fat Tank Pressure'},
+                        {value: 'master_refiner_inlet_pressure', text: 'Master Refiner Inlet Pressure'},
+                        {value: 'master_refiner_outlet_pressure', text: 'Master Refiner Outlet Pressure'},
+                        {value: 'lobe_pump_outlet_pressure', text: 'Lobe Pump Outlet Pressure'},
+                        {value: 'master_refiner_outlet_temperature', text: 'Master Refiner Outlet Temperature'},
+                        {value: 'pump_inlet_pressure', text: 'Pump Inlet Pressure'},
+                        {value: 'pump_outlet_pressure', text: 'Pump Outlet Pressure'},
+                        {value: 'nt100_tank_temperature', text: 'NT100 Tank Temperature'},
+                        {value: 'external_samba_outlet_temperature', text: 'External Samba Outlet Temperature'},
+                        {value: 'sugar_current_weight', text: 'Sugar Current Weight'},
+                        {value: 'cocoa_current_weight', text: 'Cocoa Current Weight'},
+                        {value: 'nivel_lecitina_actual', text: 'Nivel Lecitina Actual'},
+
+                        {value: 'rpm_cocoa_powder_dosage_rotary_valve', text: 'RPM Cocoa Powder Dosage Rotary Valve'},
+                        {value: 'rpm_milk_powder_dosage_rotary_valve', text: 'RPM Milk Powder Dosage Rotaty Valve'},
+                        {value: 'rpm_product_transference_pump', text: 'RPM Product Transference Pump'},
+                        {value: 'rpm_mixing_tank_masterblend_3000_disperser', text: 'RPM Mixing Tank Mastrblend 3000 Dispenser'},
+                        {value: 'rpm_external_samba', text: 'RPM External Samba'},
+                        {value: 'rpm_fat_storage_tank_transference_pump', text: 'RPM Fat Storage Tank Transference Pump'},
+                        {value: 'rpm_lecithin_add_tank_transference_pump', text: 'RPM Lecithin Add Tank Transference Pump'},
+                        {value: 'rpm_lecithin_feed_tank_transference_pump', text: 'RPM Lecethin Feed Tank Transference Pump'},
+                        {value: 'rpm_process_tank_agitator', text: 'RPM Process Tank Agitator'},
+                        {value: 'rpm_cleaning_fat_tank_disperser', text: 'RPM Cleaning Fat Tank Disperser'},
+                        {value: 'rpm_masterrefiner_300_mill', text: 'RPM Masterrfiner 300 Mill'},
+                        {value: 'rpm_masterrefiner_300_feed_pump', text: 'RPM Masterrfiner 300 Feed Pump'},
+                        {value: 'rpm_masterrefiner_300_discharge_pump', text: 'RPM Masterrfiner 300 Discharge Pump'},
+                        {value: 'rpm_sugar_dosage_rotary_valve', text: 'RPM Sugar Dosage Rotary Valve'},
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
