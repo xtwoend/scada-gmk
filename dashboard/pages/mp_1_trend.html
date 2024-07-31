@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+    <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+    <link rel="stylesheet" href="/assets/app.5c01081d.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="MP 01 Trend View Live"
+            url="http://10.10.10.111:9501/mqtt/11/log"
+            :mqtt="{
+                url: 'ws://10.10.10.111:9001',
+                username: 'mqtt01',
+                password: 'password123',
+                topic: 'data/gmk/salsa3000/parameter_group1',
+                timefield: 'ts'
+            }"
+      
+            :columns="[
+
+                {data: 'sp_machine_weighing_minute_from_hmi', text: 'SP Machine Weighing Minute From HMI'},
+                {data: 'sp_right_dispenser_preaspiration_distance_from_hmi', text: 'SP Right Dispenser Preaspiration Distance From HMI'},
+                {data: 'sp_right_dosing_suction_distance_from_hmi', text: 'SP Right Dosing Suction Distance From HMI'},
+                {data: 'sp_right_dispenser_offset_distance', text: 'SP Right Dispenser Offset Distance'},
+                {data: 'sp_left_dispenser_preaspiration_distance', text: 'SP Left Dispenser Preaspiration Distance'},
+                {data: 'sp_left_dispenser_dosing_distance', text: 'SP Left Dispenser Dosing Distance'},
+                {data: 'sp_left_dispenser_offset_distance', text: 'SP Left Dispenser Offset Distance'},
+                {data: 'sp_no_dosages_followed', text: 'SP No Dosages Followed'},
+                {data: 'sp_left_dispenser_start_delay_time_from_hmi', text: 'SP Left Dispenser Start Delay Time From HMI'},
+                
+                {data: 'sp_left_dispenser_preaspiration_distance_from_hmi', text: 'SP Left Dispenser Preaspirantin Distance From HMI'},
+                {data: 'sp_left_dosing_suction_distance_from_hmi', text: 'SP Left Dosing Suction Distance From HMI'},
+                {data: 'pv_hopper_temperature', text: 'PV Hopper Temperature'},
+                {data: 'sp_hopper_temperature', text: 'SP Hopper Temperature'},
+                {data: 'pv_tunnel_temperature', text: 'PV Tunner Temperature'},
+                {data: 'weighing_machine_minute', text: 'Weighing Machine Minute'},
+                {data: 'partial_dosage_counter', text: 'Partial Dosage Counter'},
+                {data: 'total_dosage_counter', text: 'Total Dosage Cunter'},
+                {data: 'drag_belt_driver_alarm_code', text: 'Drag Belt Driver Alarm Code'},
+
+                {data: 'right_dosing_driver_alarm_code', text: 'Right Dosing Driver Alarm Code'},
+                {data: 'total_operating_hours_counter', text: 'Total Operating Hours Counter'},
+                {data: 'total_operating_minute_counter', text: 'Total Operating Minute Counter'},
+                {data: 'sp_lifting_table_height', text: 'SP Lifting Table Height'},
+                {data: 'sp_percentage_dosage_start_lowering_lifting_table', text: 'SP Percentage Dosage Start Lowering Lifting Table'},
+                {data: 'sp_percentage_dosage_start_conveyor_belt_run', text: 'SP Percentage Dosage Start Conveyor Belt RUN'},
+                {data: 'sp_vibrator_speed', text: 'SP Vibrator Speed'},
+                {data: 'sp_work_temp_hopper', text: 'SP Work Temperature Hopper'},
+                {data: 'sp_maintain_temp_hopper', text: 'SP Maintain Temperature Hopper'},
+                {data: 'sp_tunnel_temperature', text: 'SP Tunnel Temperature'}
+
+       ]"></trend-live>
+
+        <trend-view v-if="active == 'history'"
+                title="MP 01 View Historical"
+                url="http://10.10.10.111:9501/trend/11/data"
+                :default-data="[
+                    {data: 'sp_machine_weighing_minute_from_hmi', text: 'SP Machine Weighing Minute From HMI'},
+                    {data: 'sp_right_dispenser_preaspiration_distance_from_hmi', text: 'SP Right Dispenser Preaspiration Distance From HMI'},
+                    {data: 'sp_right_dosing_suction_distance_from_hmi', text: 'SP Right Dosing Suction Distance From HMI'},
+                    {data: 'sp_right_dispenser_offset_distance', text: 'SP Right Dispenser Offset Distance'},
+              
+                ]"
+                :columns="[
+                    {data: 'sp_machine_weighing_minute_from_hmi', text: 'SP Machine Weighing Minute From HMI'},
+                    {data: 'sp_right_dispenser_preaspiration_distance_from_hmi', text: 'SP Right Dispenser Preaspiration Distance From HMI'},
+                    {data: 'sp_right_dosing_suction_distance_from_hmi', text: 'SP Right Dosing Suction Distance From HMI'},
+                    {data: 'sp_right_dispenser_offset_distance', text: 'SP Right Dispenser Offset Distance'},
+                    {data: 'sp_left_dispenser_preaspiration_distance', text: 'SP Left Dispenser Preaspiration Distance'},
+                    {data: 'sp_left_dispenser_dosing_distance', text: 'SP Left Dispenser Dosing Distance'},
+                    {data: 'sp_left_dispenser_offset_distance', text: 'SP Left Dispenser Offset Distance'},
+                    {data: 'sp_no_dosages_followed', text: 'SP No Dosages Followed'},
+                    {data: 'sp_left_dispenser_start_delay_time_from_hmi', text: 'SP Left Dispenser Start Delay Time From HMI'},
+                    
+                    {data: 'sp_left_dispenser_preaspiration_distance_from_hmi', text: 'SP Left Dispenser Preaspirantin Distance From HMI'},
+                    {data: 'sp_left_dosing_suction_distance_from_hmi', text: 'SP Left Dosing Suction Distance From HMI'},
+                    {data: 'pv_hopper_temperature', text: 'PV Hopper Temperature'},
+                    {data: 'sp_hopper_temperature', text: 'SP Hopper Temperature'},
+                    {data: 'pv_tunnel_temperature', text: 'PV Tunner Temperature'},
+                    {data: 'weighing_machine_minute', text: 'Weighing Machine Minute'},
+                    {data: 'partial_dosage_counter', text: 'Partial Dosage Counter'},
+                    {data: 'total_dosage_counter', text: 'Total Dosage Cunter'},
+                    {data: 'drag_belt_driver_alarm_code', text: 'Drag Belt Driver Alarm Code'},
+
+                    {data: 'right_dosing_driver_alarm_code', text: 'Right Dosing Driver Alarm Code'},
+                    {data: 'total_operating_hours_counter', text: 'Total Operating Hours Counter'},
+                    {data: 'total_operating_minute_counter', text: 'Total Operating Minute Counter'},
+                    {data: 'sp_lifting_table_height', text: 'SP Lifting Table Height'},
+                    {data: 'sp_percentage_dosage_start_lowering_lifting_table', text: 'SP Percentage Dosage Start Lowering Lifting Table'},
+                    {data: 'sp_percentage_dosage_start_conveyor_belt_run', text: 'SP Percentage Dosage Start Conveyor Belt RUN'},
+                    {data: 'sp_vibrator_speed', text: 'SP Vibrator Speed'},
+                    {data: 'sp_work_temp_hopper', text: 'SP Work Temperature Hopper'},
+                    {data: 'sp_maintain_temp_hopper', text: 'SP Maintain Temperature Hopper'},
+                    {data: 'sp_tunnel_temperature', text: 'SP Tunnel Temperature'}
+                    
+
+            ]"></trend-view>
+
+    </div>
+    
+</body>
+</html>

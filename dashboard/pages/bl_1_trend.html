@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+    <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+    <link rel="stylesheet" href="/assets/app.5c01081d.css">
+</head>
+<body>
+    <div id="app">
+        <div class="section-tool">
+            <div class="control-group">
+                <label for="live">
+                    <input type="radio" name="mode" id="live" value="live" :checked="active == null" @click="active = 'live'">
+                    <span>Live Trend</span>
+                </label>
+            </div>
+            <div class="control-group">
+                <label for="history">
+                    <input type="radio" name="mode" id="history" value="history" :checked="active == 'history'" @click="active = 'history'">
+                    <span>Historical Trend</span>
+                </label>
+            </div>
+        </div>
+        <trend-live 
+            v-if="active == null || active == 'live'"
+            title="BL 1 View Live"
+            url="http://10.10.10.111:9501/mqtt/13/log"
+            :mqtt="{
+                url: 'ws://10.10.10.111:9001',
+                username: 'mqtt01',
+                password: 'password123',
+                topic: 'data/gmk/bl1/parameter_group1',
+                timefield: 'ts'
+            }"
+      
+            :columns="[
+
+                {value: 'cooling_temperature1', text: 'Cooling Temperature 1'},
+                {value: 'cooling_temperature2', text: 'Cooling Temperature 2'},
+                {value: 'cooling_tempeature3', text: 'Cooling Temperature 3'},
+                {value: 'cooling_tempeature4', text: 'Cooling Temperature 4'},
+                {value: 'formen_temperature', text: 'Formen Temperature'},
+                {value: 'temperature_heating1_up', text: 'Temperature Heating 1 UP'},
+                {value: 'tempeature_heating2_up', text: 'Temperature Heating 2 UP'},
+                {value: 'water_temp_forward_run', text: 'Water Temp Forward Run'},
+                {value: 'water_temp_runback', text: 'Water Temp runback'}
+
+       ]"></trend-live>
+
+        <trend-view v-if="active == 'history'"
+                title="BL 1 View Historical"
+                url="http://10.10.10.111:9501/trend/13/data"
+                :default-data="[
+                    {data: 'cooling_temperature1', text: 'Cooling Temperature 1'},
+                    {data: 'cooling_temperature2', text: 'Cooling Temperature 2'},
+                    {data: 'cooling_tempeature3', text: 'Cooling Temperature 3'},
+                    {data: 'cooling_tempeature4', text: 'Cooling Temperature 4'},
+                    {data: 'formen_temperature', text: 'Formen Temperature'},
+                    {data: 'temperature_heating1_up', text: 'Temperature Heating 1 UP'},
+                    {data: 'tempeature_heating2_up', text: 'Temperature Heating 2 UP'},
+                    {data: 'water_temp_forward_run', text: 'Water Temp Forward Run'},
+                    {data: 'water_temp_runback', text: 'Water Temp runback'}
+                ]"
+                :columns="[
+                    {data: 'cooling_temperature1', text: 'Cooling Temperature 1'},
+                    {data: 'cooling_temperature2', text: 'Cooling Temperature 2'},
+                    {data: 'cooling_tempeature3', text: 'Cooling Temperature 3'},
+                    {data: 'cooling_tempeature4', text: 'Cooling Temperature 4'},
+                    {data: 'formen_temperature', text: 'Formen Temperature'},
+                    {data: 'temperature_heating1_up', text: 'Temperature Heating 1 UP'},
+                    {data: 'tempeature_heating2_up', text: 'Temperature Heating 2 UP'},
+                    {data: 'water_temp_forward_run', text: 'Water Temp Forward Run'},
+                    {data: 'water_temp_runback', text: 'Water Temp runback'}   
+
+            ]"></trend-view>
+
+    </div>
+    
+</body>
+</html>

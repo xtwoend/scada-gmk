@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+        <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+        <link rel="stylesheet" href="/assets/app.5c01081d.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/13/data"
+                    export="http://10.10.10.111:9501/table/13/export"
+                    title="BL 01 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'cooling_temperature1', text: 'Cooling Temperature 1'},
+                        {value: 'cooling_temperature2', text: 'Cooling Temperature 2'},
+                        {value: 'cooling_tempeature3', text: 'Cooling Temperature 3'},
+                        {value: 'cooling_tempeature4', text: 'Cooling Temperature 4'},
+                        {value: 'formen_temperature', text: 'Formen Temperature'},
+                        {value: 'temperature_heating1_up', text: 'Temperature Heating 1 UP'},
+                        {value: 'tempeature_heating2_up', text: 'Temperature Heating 2 UP'},
+                        {value: 'water_temp_forward_run', text: 'Water Temp Forward Run'},
+                        {value: 'water_temp_runback', text: 'Water Temp runback'}
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>

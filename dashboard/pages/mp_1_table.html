@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Auto COT Pump</title>
+        
+        <script type="module" crossorigin src="/assets/vendor.48758b4e.js"></script>
+        <script type="module" crossorigin src="/assets/app.5c1790ae.js"></script>
+        <link rel="stylesheet" href="/assets/app.5c01081d.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="table-wrapper">
+                <log-table
+                    url="http://10.10.10.111:9501/table/12/data"
+                    export="http://10.10.10.111:9501/table/12/export"
+                    title="MP 01 - Data Logger"
+                    :headers="[
+                        {text: 'Timestamp', value: 'terminal_time', sortable: true},
+                        {value: 'sp_machine_weighing_minute_from_hmi', text: 'SP Machine Weighing Minute From HMI'},
+                        {value: 'sp_right_dispenser_preaspiration_distance_from_hmi', text: 'SP Right Dispenser Preaspiration Distance From HMI'},
+                        {value: 'sp_right_dosing_suction_distance_from_hmi', text: 'SP Right Dosing Suction Distance From HMI'},
+                        {value: 'sp_right_dispenser_offset_distance', text: 'SP Right Dispenser Offset Distance'},
+                        {value: 'sp_left_dispenser_preaspiration_distance', text: 'SP Left Dispenser Preaspiration Distance'},
+                        {value: 'sp_left_dispenser_dosing_distance', text: 'SP Left Dispenser Dosing Distance'},
+                        {value: 'sp_left_dispenser_offset_distance', text: 'SP Left Dispenser Offset Distance'},
+                        {value: 'sp_no_dosages_followed', text: 'SP No Dosages Followed'},
+                        {value: 'sp_left_dispenser_start_delay_time_from_hmi', text: 'SP Left Dispenser Start Delay Time From HMI'},
+                        
+                        {value: 'sp_left_dispenser_preaspiration_distance_from_hmi', text: 'SP Left Dispenser Preaspirantin Distance From HMI'},
+                        {value: 'sp_left_dosing_suction_distance_from_hmi', text: 'SP Left Dosing Suction Distance From HMI'},
+                        {value: 'pv_hopper_temperature', text: 'PV Hopper Temperature'},
+                        {value: 'sp_hopper_temperature', text: 'SP Hopper Temperature'},
+                        {value: 'pv_tunnel_temperature', text: 'PV Tunner Temperature'},
+                        {value: 'weighing_machine_minute', text: 'Weighing Machine Minute'},
+                        {value: 'partial_dosage_counter', text: 'Partial Dosage Counter'},
+                        {value: 'total_dosage_counter', text: 'Total Dosage Cunter'},
+                        {value: 'drag_belt_driver_alarm_code', text: 'Drag Belt Driver Alarm Code'},
+
+                        {value: 'right_dosing_driver_alarm_code', text: 'Right Dosing Driver Alarm Code'},
+                        {value: 'total_operating_hours_counter', text: 'Total Operating Hours Counter'},
+                        {value: 'total_operating_minute_counter', text: 'Total Operating Minute Counter'},
+                        {value: 'sp_lifting_table_height', text: 'SP Lifting Table Height'},
+                        {value: 'sp_percentage_dosage_start_lowering_lifting_table', text: 'SP Percentage Dosage Start Lowering Lifting Table'},
+                        {value: 'sp_percentage_dosage_start_conveyor_belt_run', text: 'SP Percentage Dosage Start Conveyor Belt RUN'},
+                        {value: 'sp_vibrator_speed', text: 'SP Vibrator Speed'},
+                        {value: 'sp_work_temp_hopper', text: 'SP Work Temperature Hopper'},
+                        {value: 'sp_maintain_temp_hopper', text: 'SP Maintain Temperature Hopper'},
+                        {value: 'sp_tunnel_temperature', text: 'SP Tunnel Temperature'}
+                    ]"
+                    ref="vtable"
+                    >
+                </log-table>
+            </div>
+        </div>
+        
+    </body>
+</html>
