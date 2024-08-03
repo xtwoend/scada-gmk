@@ -28,7 +28,7 @@
         </div>
         <trend-live 
             v-if="active == null || active == 'live'"
-            title="PKU Pannel Trend View Live"
+            title="Salsa 3000 - Trend View Live"
             url="http://10.10.10.111:9501/mqtt/11/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
@@ -77,7 +77,7 @@
        ]"></trend-live>
 
         <trend-view v-if="active == 'history'"
-                title="PKU Pannel View Historical"
+                title="Salsa 3000 - View Historical"
                 url="http://10.10.10.111:9501/trend/11/data"
                 :default-data="[
                     {data: 'mixing_tank_product_temp', text: 'Mixing Tank Product Temperature'},
