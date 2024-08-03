@@ -29,12 +29,12 @@
         <trend-live 
             v-if="active == null || active == 'live'"
             title="MP 01 Trend View Live"
-            url="http://10.10.10.111:9501/mqtt/11/log"
+            url="http://10.10.10.111:9501/mqtt/12/log"
             :mqtt="{
                 url: 'ws://10.10.10.111:9001',
                 username: 'mqtt01',
                 password: 'password123',
-                topic: 'data/gmk/salsa3000/parameter_group1',
+                topic: 'data/gmk/mp1/parameter_group1',
                 timefield: 'ts'
             }"
       
@@ -75,7 +75,7 @@
 
         <trend-view v-if="active == 'history'"
                 title="MP 01 View Historical"
-                url="http://10.10.10.111:9501/trend/11/data"
+                url="http://10.10.10.111:9501/trend/12/data"
                 :default-data="[
                     {data: 'sp_machine_weighing_minute_from_hmi', text: 'SP Machine Weighing Minute From HMI'},
                     {data: 'sp_right_dispenser_preaspiration_distance_from_hmi', text: 'SP Right Dispenser Preaspiration Distance From HMI'},
