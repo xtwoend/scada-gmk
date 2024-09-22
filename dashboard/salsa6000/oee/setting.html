@@ -11,11 +11,13 @@
     <body>
         <div id="app">
             <div class="table-wrapper">
-                <bar-chart 
-                    url="http://10.10.10.111:9501/alarm/14/summary" 
-                    title="MP 02- Losses"
-                >
-                </bar-chart>
+                <oee-setting
+                    title="Salsa 6000 - OEE Setting"
+                    url="http://10.10.10.111:9501/setting/score/10" 
+                    save-url="http://10.10.10.111:9501/setting/score/10"
+                    :is-supervisor="true"
+                    setting-showed
+                ></oee-setting>
             </div>
         </div>
         
