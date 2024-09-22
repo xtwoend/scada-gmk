@@ -2431,8 +2431,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7070312"
-     inkscape:cx="864.6826"
-     inkscape:cy="471.25797"
+     inkscape:cx="484.79082"
+     inkscape:cy="283.79801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3731,7 +3731,7 @@
          x="758.56982"
          y="210.09811">Hopper Water Filling</tspan></text>
     <rect
-       style="opacity:1;fill:#059c9c;fill-opacity:1;stroke:#000000;stroke-width:0.99481302;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.99481302;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect8531"
        width="101.52564"
        height="22.98987"
@@ -3743,9 +3743,9 @@
        height="22.98987"
        width="93.32399"
        id="rect8533"
-       style="opacity:1;fill:#f3793a;fill-opacity:1;stroke:#000000;stroke-width:0.95378447;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.95378447;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#f3793a;fill-opacity:1;stroke:#000000;stroke-width:0.96923977;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.96923977;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect8535"
        width="96.372978"
        height="22.98987"
@@ -3753,7 +3753,7 @@
        y="144.38191" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="719.02319"
        y="161.80173"
        id="text8537"
@@ -3768,7 +3768,7 @@
        id="text8541"
        y="160.3372"
        x="824.34583"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"
        inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;mp1_sp_maintain_temp_hopper&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
          y="160.3372"
@@ -3777,7 +3777,7 @@
          sodipodi:role="line">#.##0,00</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15px;line-height:37.00000048%;font-family:monospace;-inkscape-font-specification:'monospace Bold';letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="773.90649"
        y="241.47221"
        id="text8545"
@@ -3789,7 +3789,7 @@
          y="241.47221">#.##0,00</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="790.47888"
        y="162.43613"
        id="text8549"
@@ -3803,7 +3803,7 @@
        id="text8553"
        y="160.67868"
        x="896.68024"
-       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
          y="160.67868"
          x="896.68024"
@@ -3811,7 +3811,7 @@
          sodipodi:role="line">°C</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="846.29956"
        y="241.97169"
        id="text8557"
@@ -3820,89 +3820,5 @@
          id="tspan8559"
          x="846.29956"
          y="241.97169">°C</tspan></text>
-    <rect
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.20023863;stroke-linecap:round;stroke-miterlimit:4.69999981;stroke-dasharray:none;stroke-opacity:1"
-       id="rect7574"
-       width="1021.6373"
-       height="22.782202"
-       x="0.873712"
-       y="477.18295"
-       inkscape:label="" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.41416836px;line-height:100.99999905%;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="81.824165"
-       y="510.36331"
-       id="text18578-3-8-5-0-5-7-0-8-2-8-4-1-1-2-5-5-9-5-3-3-5-3"
-       sodipodi:linespacing="101%"
-       transform="scale(1.0373687,0.96397741)"
-       inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;dashboard/mp1/Overview 19062024.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}"><tspan
-         sodipodi:role="line"
-         x="81.824165"
-         y="510.36331"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:tahoma;-inkscape-font-specification:tahoma;fill:#0000ff"
-         id="tspan7191-5-1-6-8">OVERVIEW</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#737373;stroke-width:0.24498823px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 158.9997,497.52786 -0.0143,-2.07997 3.5e-4,-15.03651"
-       id="path10952-9"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.41416836px;line-height:100.99999905%;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="226.17421"
-       y="511.21469"
-       id="text18578-3-8-5-0-5-7-0-8-2-8-4-1-1-2-5-5-9-5-3-3-5-3-5"
-       sodipodi:linespacing="101%"
-       transform="scale(1.0373687,0.96397741)"
-       inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;dashboard/mp1/Hopper Feeding19062024.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}"><tspan
-         sodipodi:role="line"
-         x="226.17421"
-         y="511.21469"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:tahoma;-inkscape-font-specification:tahoma;fill:#000000"
-         id="tspan7191-5-1-6-8-0">HOPPER FEEDING</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#737373;stroke-width:0.24498823px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 314.7442,498.34862 -0.014,-2.07997 4e-4,-15.03651"
-       id="path10952-9-2"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.41416836px;line-height:100.99999905%;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="375.32214"
-       y="510.33511"
-       id="text18578-3-8-5-0-5-7-0-8-2-8-4-1-1-2-5-5-9-5-3-3-5-3-5-0"
-       sodipodi:linespacing="101%"
-       transform="scale(1.0373687,0.96397741)"
-       inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;dashboard/mp1/Hopper Heating 19062024.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}"><tspan
-         sodipodi:role="line"
-         x="375.32214"
-         y="510.33511"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:tahoma;-inkscape-font-specification:tahoma;fill:#000000"
-         id="tspan7191-5-1-6-8-0-3">HOPPER HEATING</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#737373;stroke-width:0.24498823px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 463.4658,497.50075 -0.014,-2.07997 4e-4,-15.03651"
-       id="path10952-9-2-1"
-       inkscape:connector-curvature="0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.41416836px;line-height:100.99999905%;font-family:'Lucida Sans Unicode';-inkscape-font-specification:'Lucida Sans Unicode';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="521.95374"
-       y="510.46286"
-       id="text18578-3-8-5-0-5-7-0-8-2-8-4-1-1-2-5-5-9-5-3-3-5-3-5-0-2"
-       sodipodi:linespacing="101%"
-       transform="scale(1.0373687,0.96397741)"
-       inkscape:label="{&quot;attr&quot;:&quot;open&quot;,&quot;height&quot;:400,&quot;istag&quot;:0,&quot;src&quot;:&quot;dashboard/mp1/Cooling Tunnel 19062024.svg&quot;,&quot;type&quot;:&quot;_self&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100}"><tspan
-         sodipodi:role="line"
-         x="521.95374"
-         y="510.46286"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;font-family:tahoma;-inkscape-font-specification:tahoma;fill:#000000"
-         id="tspan7191-5-1-6-8-0-3-6">COOLING TUNNEL</tspan></text>
-    <path
-       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#737373;stroke-width:0.24498823px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 617.5767,497.62391 -0.014,-2.07997 4e-4,-15.03651"
-       id="path10952-9-2-1-8"
-       inkscape:connector-curvature="0" />
   </g>
 </svg>

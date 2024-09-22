@@ -3720,14 +3720,14 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70917108"
-     inkscape:cx="594.8966"
-     inkscape:cy="268.6819"
+     inkscape:zoom="1.4183422"
+     inkscape:cx="575.2855"
+     inkscape:cy="275.13371"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      borderlayer="true"
@@ -3751,7 +3751,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -7645,17 +7645,6 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:20px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="344.57983"
-       y="208.84479"
-       id="text17645"
-       sodipodi:linespacing="37%"><tspan
-         sodipodi:role="line"
-         id="tspan17647"
-         x="344.57983"
-         y="208.84479">0.00</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:20px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="396.44833"
        y="209.21288"
        id="text17649"
@@ -7664,17 +7653,6 @@
          id="tspan17651"
          x="396.44833"
          y="209.21288">°C</tspan></text>
-    <text
-       sodipodi:linespacing="37%"
-       id="text19075"
-       y="207.34915"
-       x="557.95691"
-       style="font-style:normal;font-weight:normal;font-size:20px;line-height:37.00000048%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="207.34915"
-         x="557.95691"
-         id="tspan19077"
-         sodipodi:role="line">0.00</tspan></text>
     <text
        sodipodi:linespacing="37%"
        id="text19079"
@@ -7686,5 +7664,33 @@
          x="609.82544"
          id="tspan19081"
          sodipodi:role="line">°C</tspan></text>
+    <text
+       transform="scale(0.92539305,1.0806219)"
+       sodipodi:linespacing="100%"
+       id="text14303-2-7-9"
+       y="194.53906"
+       x="386.01089"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.24085999px;line-height:100%;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;bl1_cooling_tempeature3&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:tahoma;-inkscape-font-specification:tahoma"
+         id="tspan14309-6-1-5"
+         y="194.53906"
+         x="386.01089"
+         sodipodi:role="line">#.##0,00</tspan></text>
+    <text
+       transform="scale(0.92539305,1.0806219)"
+       sodipodi:linespacing="100%"
+       id="text14303-2-7-3-0"
+       y="192.84329"
+       x="615.58398"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.59352112px;line-height:100%;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:label="{&quot;align&quot;:&quot;Right&quot;,&quot;attr&quot;:&quot;get&quot;,&quot;tag&quot;:&quot;bl1_cooling_tempeature4&quot;,&quot;type&quot;:&quot;Good&quot;}"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:tahoma;-inkscape-font-specification:tahoma"
+         id="tspan14309-6-1-6-7"
+         y="192.84329"
+         x="615.58398"
+         sodipodi:role="line">#.##0,00</tspan></text>
   </g>
 </svg>

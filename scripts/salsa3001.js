@@ -14,7 +14,6 @@ setTag('salsa3000_process_tank_level', data.process_tank_level); // Mill CUM450 
 setTag('salsa3000_process_tank_temp', data.process_tank_temperature); // Mill LME500 Current (A) 
 setTag('salsa3000_cleaning_fat_tank_pressure', data.cleaning_fat_tank_pressure); // Mill LME500 In Product Pressure (bar)
 setTag('salsa3000_master_refiner_inlet_pressure', data.master_refiner_inlet_pressure); //  Mill LME500 Out Product Temperature (°C)
-
 setTag('salsa3000_master_refiner_outlet_pressure', data.master_refiner_outlet_pressure);
 setTag('salsa3000_lobe_pump_outlet_pressure', data.lobe_pump_outlet_pressure);
 setTag('salsa3000_master_refiner_outlet_temp', data.master_refiner_outlet_temperature);
@@ -22,7 +21,8 @@ setTag('salsa3000_pump_inlet_pressure', data.pump_inlet_pressure);
 setTag('salsa3000_pump_outlet_pressure', data.pump_outlet_pressure);
 setTag('salsa3000_nt100_tank_temp', data.nt100_tank_temperature);
 setTag('salsa3000_external_samba_outlet_temp', data.external_samba_outlet_temperature);
-setTag('salsa3000_external_samba_outlet_temp', data.sugar_current_weight);
+
+setTag('salsa3000_sugar_current_weight', data.sugar_current_weight);
 setTag('salsa3000_cocoa_current_weight', data.cocoa_current_weight);
 setTag('salsa3000_fat_storage_tank_current_weight', data.fat_storage_tank_current_weight);
 setTag('salsa3000_pig_system_pressure', data.pig_system_pressure);
@@ -47,4 +47,6 @@ setTag('salsa3000_rpm_masterrefiner_300_feed_pump', data.rpm_masterrefiner_300_f
 
 setTag('salsa3000_rpm_masterrefiner_300_discharge_pump', data.rpm_masterrefiner_300_discharge_pump);
 setTag('salsa3000_rpm_sugar_dosage_rotary_valve', data.rpm_sugar_dosage_rotary_valve);
+setTag('salsa3000_mixing_tank_current_weight', data.mixing_tank_current_weight);
+
 } 
